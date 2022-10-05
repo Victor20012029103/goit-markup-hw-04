@@ -507,6 +507,10 @@ body {
 .portfolio-title {
   margin-bottom: 4px;
 }
+.portfolio-img {
+  max-width: 100%;
+  height: auto;
+}
 
 .portfolio-list {
   display: flex;
@@ -559,10 +563,13 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-soc-container {
-
+.team-footer-link {
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
-
+.footer-team-icon {
+  fill: var(--indexcolor);
+}
 .footer-container {
   display: flex;
   align-items: baseline;
