@@ -416,7 +416,7 @@ body {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
-  border-radius: 3%;
+  border-radius: 4px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -537,7 +537,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 9px;
-  margin-right: 70px;
 }
 
 .adress-item {
@@ -561,11 +560,12 @@ body {
 }
 
 .footer-soc-container {
-  padding-top: 12px;
+
 }
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-adress-container {
